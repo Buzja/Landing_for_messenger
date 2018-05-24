@@ -1,0 +1,444 @@
+/* 1601 - 1920 px*/
+@media screen and (max-width: 1920px) {
+.download_button{
+      width: 340px;
+}
+.download_btn{
+  padding:  30px 0;
+}
+}
+/* 1369 - 1600 px*/
+@media screen and (max-width: 1820px) {
+.header_title {
+  font-size: 80px;
+}
+
+.download_btn {
+  padding: 25px 90px;
+  font-size: 25px;
+}
+
+.connect_info .descr {
+  font-size: 30px;
+}
+
+.connect_info .descr::before {
+  top: -80%;
+}
+
+.notepad_img img {
+  width: 850px;
+}
+
+.box3 {
+  height: 40px;
+  width: 40px;
+  border: 8px solid rgba(144, 164, 174, 0.3);
+  right: 55%;
+  top: -50%;
+}
+
+.box2 {
+  height: 154px;
+  width: 154px;
+  border: 8px solid rgba(144, 164, 174, 0.1);
+  right: 57%;
+  top: -14%;
+}
+
+.box1 {
+  height: 310px;
+  width: 310px;
+  border: 5px solid #90a4ae;
+  right: 10%;
+  top: -39%;
+}
+
+.menu_arrow img {
+  height: 30px;
+}
+
+.menu_arrow {
+  padding: 12px 20px;
+}
+
+.navigation {
+  font-size: 30px;
+  padding: 0px 110px;
+}
+
+}
+@media screen and (max-width: 1600px) {
+
+  .benefit_list {
+      font-size: 40px;
+  }
+  .benefit_box{
+    height: 320px;
+    font-size: 50px;
+  }
+  .benefit_underbox{
+    height: 425px;
+  }
+
+}
+/* 961 - 1368 px*/
+@media screen and (max-width: 1368px) {
+  .navigation {
+    font-size: 20px;
+    padding: 0px 80px;
+  }
+
+  .menu_arrow img {
+    height: 25px;
+  }
+  .menu_arrow {
+    padding: 7px 14px;
+  }
+
+  .notepad {
+    right: -380px;
+  }
+  .card_ico img {
+    width: 100px;
+}
+.card_ico {
+    padding: 50px 0 10px 0;
+}
+.card_info {
+    font-size: 28px;
+    padding: 0 0 42px 0;
+}
+.card .plus {
+    font-size: 30px;
+    padding: 12px;
+}
+.card:nth-child(2) {
+    margin: 0 120px;
+}
+.lt_arrow {
+    font-size: 30px;
+    left: -75px;
+    bottom: 40px;
+}
+.lt_arrow {
+    font-size: 30px;
+    left: -75px;
+    bottom: 40px;
+}
+.rb_arrow{
+  font-size: 30px;
+  right: -75px;
+  top: 40px;
+}
+.benefit_list {
+    font-size: 30px;
+}
+.benefit_box {
+    height: 265px;
+    font-size: 30px;
+}
+.benefit_underbox {
+    height: 345px;
+}
+
+.download_sec .download_info {
+    font-size: 60px;
+    padding: 10px 0 20px 0;
+}
+.download_sec .download_descr {
+    font-size: 25px;
+  }
+}
+/* 761-961 px*/
+@media screen and (max-width: 960px) {
+  .header .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    position: absolute;
+    top: 15px;
+    left: 0;
+  }
+  .logo_img{
+    position: inherit;
+  }
+  .connect_info {
+    padding-top: 50px;
+      width: 306px;
+      position: initial;
+      bottom: auto;
+      text-align: center;
+      left: auto;
+      margin: 0 auto;
+  }
+  .connect_info .descr {
+      font-size: 20px;
+      text-align: center;
+  }
+  .connect_info .descr::before {
+    display: none;
+  }
+.notepad{
+  display: none;
+}
+.menu{
+    display: none;
+}
+.header_title {
+    text-align: center;
+    position:inherit;
+    position: initial;
+}
+.cards_wrapper {
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+  width: 100%;
+}
+.benefit_underbox {
+    height: 290px;
+}
+.benefit_box {
+    height: 220px;
+    font-size: 20px;
+}
+.benefit_list {
+    font-size: 24px;
+}
+.benefit_list_el {
+    padding: 15px 0;
+}
+.list_item {
+    padding-right: 30px;
+}
+.card:nth-child(2) {
+    margin: 80px 0;
+}
+.lt_arrow,.rb_arrow{
+  display: none;
+}
+.download_btn {
+    padding: 25px;
+    font-size: 25px;
+}
+.sec_marker {
+    height: 76px;
+}
+.section_title{
+  font-size: 40px;
+}
+.section_descr {
+    font-size: 30px;
+    margin-bottom: -8px;
+}
+.review_img {
+    width: 200px;
+    height: 200px;
+    margin: 25px 50px;
+}
+.review_person .person_name {
+    padding-top: 5px;
+    font-size: 23px;
+}
+.review_person .person_job {
+    font-size: 15px;
+    padding: 5px 0 40px 0;
+}
+.btn_more {
+    padding: 30px 0;
+    font-size: 20px;
+}
+.review_wrapper{
+  padding: 50px 0;
+}
+.download_wrapper{
+  flex-direction: column;
+}
+.download_sec .download_descr {
+    font-size: 35px;
+    padding-top: 40px;
+}
+.download_sec .download_info {
+    font-size: 80px;
+    padding: 10px 0 30px 0;
+}
+.footer_wrapper{
+    flex-direction: column;
+}
+.footer_logo{
+  padding: 0 0 15px 0;
+}
+.review_marker{
+  width: 20px;
+    height: 200px;
+    font-size: 20px;
+}
+}
+/* 481-760 px*/
+@media screen and (max-width: 760px) {
+ .header_title{
+   font-size: 55px;
+ }
+ .connect_info{
+   padding-top: 30px;
+   width: 260px;
+ }
+ .connect_info .descr{
+   padding-bottom: 20px;
+ }
+ .download_btn {
+    padding: 20px;
+    font-size: 20px;
+}
+.sec_marker {
+    height: 56px;
+    width: 10px;
+}
+.section_descr {
+    font-size: 20px;
+    margin-bottom: -6px;
+}
+.section_title{
+  font-size: 30px;
+}
+.up_arrow_text{
+  font-size: 20px;
+margin-left: -120px;
+}
+.info_sec{
+  flex-direction: column;
+}
+.benefit_underbox{
+  height: 230px;
+  width: 100%;
+}
+.benefit_box {
+    height: 220px;
+    font-size: 20px;
+    top: 100px;
+    left: auto;
+    width: 80%;
+}
+.benefit_list_wrapper {
+    padding-top: 80px;
+    position: initial;
+    width: 80%;
+    right: auto;
+}
+.capabilities .benefit_box{
+  left: auto;
+  right: auto;
+}
+.review_img {
+    width: 150px;
+    height: 150px;
+    margin: 20px 40px;
+}
+.review_person .person_name {
+    padding-top: 2px;
+    font-size: 18px;
+}
+.review_person .person_job {
+    font-size: 12px;
+    padding: 5px 0 30px 0;
+}
+.btn_more {
+    padding: 22px 0;
+    font-size: 18px;
+}
+.sliders_wrapper{
+  height: 600px;
+}
+.review_wrapper {
+    padding: 0;
+}
+.download_sec .download_descr{
+  font-size: 30px;
+}
+.download_sec .download_info {
+    font-size: 60px;
+  }
+.download_button{
+    width: 260px;
+  }
+
+  .review_marker {
+      position: relative;
+      width: 100%;
+      height: auto;
+      font-size: 30px;
+      padding: 20px 0;
+      z-index: 1;
+  }
+}
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+.header_title{
+  font-size: 40px;
+}
+.connect_info{
+  width: 220px;
+}
+.connect_info .descr {
+    padding-bottom: 18px;
+}
+.download_btn {
+    padding: 18px;
+    font-size: 18px;
+}
+.section_title {
+    font-size: 25px;
+}
+.up_arrow_text {
+    font-size: 20px;
+    margin: -30px 0 0 0;
+}
+.benefit_box {
+    width: 100%;
+}
+.benefit_list {
+    font-size: 18px;
+}
+.benefit_list_el {
+    padding: 10px 0;
+}
+.list_item{
+  padding-right: 10px;
+}
+.capabilities .benefit_box {
+    width: 100%;
+    left: auto;
+    right: auto;
+}
+.arrow_down img {
+    width: 10px;
+    display: block;
+}
+.arrow_down{
+  width: 40px;
+  height: 40px;
+}
+.sliders_wrapper{
+  height: 550px;
+}
+.review_wrapper {
+    padding: 0;
+}
+.download_sec .download_descr{
+  font-size: 20px;
+}
+.download_sec .download_info {
+    font-size: 40px;
+}
+.download_button{
+    width: 220px;
+}
+.review_marker {
+    font-size: 25px;
+}
+}
